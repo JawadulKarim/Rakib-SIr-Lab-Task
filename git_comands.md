@@ -30,5 +30,38 @@ $ git add <file name>
 <br>
 <br>
 <br>
+
+# Git Add
+The git add command is used to add file contents to the Index (Staging Area).This command updates the current content of the working tree to the staging area. It also prepares the staged content for the next commit. Every time we add or update any file in our project, it is required to forward updates to the staging area.
+
+The git add command is a core part of Git technology. It typically adds one file at a time, but there some options are available that can add more than one file at once. he git add command can be run many times before making a commit. These all add operations can be put under one commit. The add command adds the files that are specified on command line.
+
+### For tracking all files in local repository.........
+```
+$ git add -A    
+
+or
+
+$ git add .
+```
 <br>
 
+### For tracking a particular file.........
+```
+$ git add <file name>
+```
+
+
+
+### For checking whether file tracked or not.............
+```
+$ git status
+```
+
+### To cancel tracking of a particular file........
+```
+$ git reset <file name>
+```
+<br>
+<br>
+<br>

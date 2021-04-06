@@ -4,3 +4,10 @@ Git is an open sourced version control system which is designed to handle minor 
 
 <br>
 
+## Features of Git ⚙️⚙️⚙️
+>1. Open Source.
+>1. Scalabity.
+>1. Security.
+>1. Speed.
+
+

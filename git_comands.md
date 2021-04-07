@@ -173,3 +173,56 @@ The above command will display the last commits
 <br>
 <br>
 <br>
+
+# Git Fetch 
+Git "fetch" Downloads commits, objects and refs from another repository. It fetches branches and tags from one or more repositories. It holds repositories along with the objects that are necessary to complete their histories to keep updated remote-tracking branches.
+![alt text](https://static.javatpoint.com/tutorial/git/images/git-fetch.png) 
+
+### To fetch a remote repository
+```
+$ git fetch <repository URL>
+```
+<br>
+
+### <b>Fetch a sepecific branch</b>
+We can fetch a specific branch from a repository. It will only access the element from a specific branch. See the below output:
+```
+$ git fetch <brancg name> <branch url>
+```
+<br>
+
+### <b> To fetch all branch</b>
+```
+$ git fetch -all
+```
+<br>
+<br>
+<br>
+
+# Git Pull
+The term pull is used to receive data from GitHub. It fetches and merges changes from the remote server to your working directory. The git pull command is used to pull a repository.
+![alt text](https://static.javatpoint.com/tutorial/git/images/git-pull.png)
+
+Pull request is a process for a developer to notify team members that they have completed a feature. Once their feature branch is ready, the developer files a pull request via their remote server account. Pull request announces all the team members that they need to review the code and merge it into the master branch.
+
+The below figure demonstrates how pull acts between different locations and how it is similar or dissimilar to other related commands.
+![alt text](https://static.javatpoint.com/tutorial/git/images/git-pull2.png)
+he pull command is used to access the changes (commits)from a remote repository to the local repository. It updates the local branches with the remote-tracking branches. Remote tracking branches are branches that have been set up to push and pull from the remote repository. Generally, it is a collection of the fetch and merges command. First, it fetches the changes from remote and combined them with the local repository.
+
+The syntax of the git pull command is given below:
+```
+ $ git pull origin master
+```
+<br>
+<br>
+<br>
+
+# Difference between Pull andd Fetch
+ 
+|Git Fetch |Git Pull|
+|:---:|:---:|
+|Fetch downloads only new data from a remote repository.|Pull is used to update your current HEAD branch with the latest changes from the remote server.|
+|Fetch is used to get a new view of all the things that happened in a remote repository.|Pull downloads new data and directly integrates it into your current working copy files.|
+|Fetch never manipulates or spoils data.|Pull downloads the data and integrates it with the current working file.|
+|It protects your code from merge conflict.|In git pull, there are more chances to create the merge conflict.|
+|It is better to use git fetch command with git merge command on a pulled repository.|It is not an excellent choice to use git pull if you already pulled any repository.|

@@ -77,3 +77,21 @@ $ git commit
 ```
 $ git commit -m "Type message here"
 ```
+<br>
+<br>
+<br>
+
+# Git Clone
+In Git, cloning is the act of making a copy of any target repository. The target repository can be remote or local. You can clone your repository from the remote repository to create a local copy on your system. Also, you can sync between the two locations.
+
+![alt text](https://static.javatpoint.com/tutorial/git/images/git-clone.png)
+
+###The git clone is a command-line utility which is used to make a local copy of a remote repository. It accesses the repository through a remote URL. Usually, the original repository is located on a remote server, often from a Git service like GitHub, Bitbucket, or GitLab. The remote repository URL is referred to the origin.
+```
+$ git clone <link address>
+```
+
+![alt address](https://static.javatpoint.com/tutorial/git/images/git-clone-2.png)
+<br>
+<br>
+<br>

@@ -10,6 +10,7 @@ Git is an open sourced version control system which is designed to handle minor 
 >1. Security.
 >1. Speed.
 
+
 <br>
 <br>
 
@@ -226,3 +227,24 @@ The syntax of the git pull command is given below:
 |Fetch never manipulates or spoils data.|Pull downloads the data and integrates it with the current working file.|
 |It protects your code from merge conflict.|In git pull, there are more chances to create the merge conflict.|
 |It is better to use git fetch command with git merge command on a pulled repository.|It is not an excellent choice to use git pull if you already pulled any repository.|
+
+<br>
+<br>
+<br>
+
+# Git Push
+The push term refers to upload local repository content to a remote repository. Pushing is an act of transfer commits from your local repository to a remote repository. Pushing is capable of overwriting changes; caution should be taken when pushing.
+![alt text](https://static.javatpoint.com/tutorial/git/images/git-push.png)
+
+Moreover, we can say the push updates the remote refs with local refs. Every time you push into the repository, it is updated with some interesting changes that you made. If we do not specify the location of a repository, then it will push to default location at origin master. The "git push" command is used to push into the repository. The push command can be considered as a tool to transfer commits between local and remote repositories. The basic syntax is given below:
+```
+$ git push <option> [<Remote URL><branch name><refspec>...]  
+```
+
+### Git Push Origin Master
+Git push origin master is a special command-line utility that specifies the remote branch and directory. When you have multiple branches and directory, then this command assists you in determining your main branch and repository.
+
+Generally, the term origin stands for the remote repository, and master is considered as the main branch. So, the entire statement "git push origin master" pushed the local content on the master branch of the remote location.
+```
+$ git push origin master
+```

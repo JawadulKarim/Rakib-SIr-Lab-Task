@@ -248,3 +248,19 @@ Generally, the term origin stands for the remote repository, and master is consi
 ```
 $ git push origin master
 ```
+<br>
+<br>
+<br>
+
+# Git Status
+The git status command is used to display the state of the repository and staging area. It allows us to see the tracked, untracked files and changes. This command will not show any commit records or information. Mostly, it is used to display the state between Git Add and Git commit command. We can check whether the changes and files are tracked or not.
+
+### Status when Working Tree is cleaned
+Before starting with git status command, let's see how the git status looks like when there are no changes made. To check the status, open the git bash, and run the status command on your desired directory. It will run as follows:
+```
+$ git status
+```
+<br>
+<br>
+<br>
+

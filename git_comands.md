@@ -109,3 +109,15 @@ $ git branch
 ```
 $ git checkout <branch_name>
 ```
+<br>
+<br>
+<br>
+
+# Git Revert
+In Git, the term revert is used to revert some changes. The git revert command is used to apply revert operation. It is an undo type command. However, it is not a traditional undo alternative. It does not delete any data in this process; instead, it will create a new change with the opposite effect and thereby undo the specified commit. Generally, git revert is a commit. It can be useful for tracking bugs in the project. If you want to remove something from history then git revert is a wrong choice. Moreover, we can say that git revert records some new changes that are just opposite to previously made commits. To undo the changes, run the below command:
+```
+$ git revert
+```
+<br>
+<br>
+<br>

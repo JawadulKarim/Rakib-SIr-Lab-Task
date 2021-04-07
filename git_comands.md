@@ -121,3 +121,32 @@ $ git revert
 <br>
 <br>
 <br>
+
+# Git Remote
+In Git, the term remote is concerned with the remote repository. It is a shared repository that all team members use to exchange their changes. A remote repository is stored on a code hosting service like an internal server, GitHub, Subversion, and more. In the case of a local repository, a remote typically does not provide a file tree of the project's current state; as an alternative, it only consists of the .git versioning data.
+
+The developers can perform many operations with the remote server. These operations can be a clone, fetch, push, pull, and more. Consider the below image: 
+![alt text](https://static.javatpoint.com/tutorial/git/images/git-remote.png)
+
+### Remote checking
+To check the configuration of the remote server, run the git remote command. The git remote command allows accessing the connection between remote and local. If you want to see the original existence of your cloned repository, use the git remote command. It can be used as:
+```
+$ git remote
+```
+
+### Git remote add
+When we fetch a repository implicitly, git adds a remote for the repository. Also, we can explicitly add a remote for a repository. We can add a remote as a shot nickname or short name. To add remote as a short name, follow the below command:
+```
+$ git remote <tag_name> <remote URL>
+```
+### For knowing online directory path
+```
+$ git remove -v 
+
+or
+
+$ git remote -verbose
+```
+<br>
+<br>
+<br>

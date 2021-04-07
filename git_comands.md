@@ -264,3 +264,19 @@ $ git status
 <br>
 <br>
 
+# Git Head
+The HEAD points out the last commit in the current checkout branch. It is like a pointer to any reference. The HEAD can be understood as the "current branch." When you switch branches with 'checkout,' the HEAD is transferred to the new branch.
+
+![alt text](https://static.javatpoint.com/tutorial/git/images/git-head.png)
+
+The above fig shows the HEAD referencing commit-1 because of a 'checkout' was done at commit-1. When you make a new commit, it shifts to the newer commit. The git head command is used to view the status of Head with different arguments. It stores the status of Head in .git\refs\heads directory.
+
+### Git Show Head
+The git show head is used to check the status of the Head. This command will show the location of the Head.
+```
+$ git show HEAD
+```
+
+### Git Detached Head
+GitHub keeps track of all commits or snapshots over time. If you check the 'git log' in your terminal, you can show all the previous commits up to the first commit. Detached HEAD mode allows you to discover an older state of a repository. It is a natural state in Git.
+When Head doesn't point to most recent commit, such state is called detached Head. If you checkout with an older commit, it will stand the detached head condition. 

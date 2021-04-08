@@ -358,3 +358,43 @@ Git has two types of branches called local and remote. To use git pull and git p
 <br>
 <br>
 <br>
+
+# Git Installation on Linux(Ubuntu)
+
+Git is an open-source distributed version control system that is available for everyone at zero cost. It is designed to handle minor to major projects with speed and efficiency. It is developed to co-ordinate the work among programmers. The version control allows you to track and work together with your team members at the same workspace.
+
+Git is the most common source code management (SCM) and covers more users than earlier VCS systems like SVN. Let's understand how to install Git on your Ubuntu server.
+
+<b>Step1: Start the General OS and Package update</b>
+
+First of all, we should start the general OS and package updates. To do so, run the below command:
+```
+$ sudo apt-get update
+```
+<b>Step2: Install Git</b>
+```
+$ sudo apt-get install git-core
+```
+<b>Step3: Confirm Git the installation</b>
+
+To confirm the installation, press 'y' key on the editor. Now, Git is installed and ready to use. When the central installation done, first check to ensure the executable file is set up and accessible. The best way to do this is the git version command. It will be run as:
+```
+ $ sudo git --version
+```
+
+<b>Step4: Configure the Git for the First use</b>
+
+Now you can start using Git on your system. You can explore many features of the version control system. To go with Git, you have to configure the initial user access process. It can be done with the git config command. Suppose I want to register a user whose user name is "javaTpoint" and email address is "Javatpoint@xyz", then it will be done as follows:
+
+To register a username, run the below command:
+```
+$ git config --global user.name "javaTpoint"  
+```
+
+To register an email address for the given author, run the below command:
+```
+$ git config --global user.email "javatpoint@xyz" 
+```
+<br>
+<br>
+<br>

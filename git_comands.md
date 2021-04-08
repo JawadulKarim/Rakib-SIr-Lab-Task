@@ -398,3 +398,20 @@ $ git config --global user.email "javatpoint@xyz"
 <br>
 <br>
 <br>
+
+# Git Vs Github
+it is an open-source distributed version control system which is available for everyone at zero cost. It is designed to handle minor to major projects with speed and efficiency. It is developed to co-ordinate the work among programmers. The version control allows you to track and work together with your team member at the same workspace.
+
+
+While GitHub is a Git repository hosting service. It is a web-based service. GitHub facilitates with all of the features of distributed version control and source code management (SCM) functionality of Git. It also supports some of its characteristics in a single software tool.
+<br>
+
+|Git|Github|
+|:---:|:---:|
+|Git is a distributed version control tool that can manage a programmer's source code history.|GitHub is a cloud-based tool developed around the Git tool.|
+|A developer installs Git tool locally.|GitHub is an online service to store code and push from the computer running the Git tool.|
+|Git focused on version control and code sharing.|GitHub focused on centralized source code hosting.|
+|It is a command-line tool.|It is administered through the web.|
+|It facilitates with a desktop interface called Git Gui.|It also facilitates with a desktop interface called GitHub Gui.|
+|Git does not provide any user management feature.|GitHub has a built-in user management feature.|
+|It has minimal tool configuration feature.|It has a market place for tool configuration.|
